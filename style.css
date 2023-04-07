@@ -1,0 +1,66 @@
+*{
+    font-family: 'roboto', sans-serif;
+    /* border:1px solid red; */
+}
+
+/* Navbar */
+
+/* Main Image */
+.textInImg{
+    /* for y-pos of main image */
+    position: static;
+    transform: translateY(-200%);
+}
+/* This is how we're handling dynamic text size for the big 'featured show' */
+@media(min-width: 700px){
+    .textInImg {font-size:60px}
+}
+@media(min-width: 1100px){
+    .textInImg {font-size:100px}
+}
+@media(min-width: 1300px){
+    .textInImg {font-size:120px}
+}
+@media(min-width: 1700px){
+    .textInImg {font-size:160px}
+}
+
+
+
+/* Flyer */
+.dateBlock{
+    background-color: rgb(218, 218, 218);
+    border:1px solid black;
+}
+
+.showName{
+    font-size: 25px;
+}
+
+.readT{
+    font-size: 25px;
+    color: white;
+}
+.readB{
+    background-color: rgb(252, 189, 73);
+}
+.readB:hover{
+    background-color: orange;
+}
+
+/* Footer */
+.bigFoot{
+    font-size: xx-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
